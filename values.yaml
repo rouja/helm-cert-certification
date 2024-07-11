@@ -5,7 +5,7 @@
 replicaCount: 1
 
 environnement: ovh
-phase: dev
+phase: lab2
 
 image:
   repository: harbor.apps.c6.numerique-interieur.com/mi-service-team
