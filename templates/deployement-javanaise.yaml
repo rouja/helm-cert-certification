@@ -19,10 +19,6 @@ spec:
     spec:
       serviceAccountName: tuto-sa
       serviceAccount: tuto-sa
-      securityContext:
-        runAsUser: 1001250000
-        runAsGroup: 1001250000
-        fsGroup: 1001250000
       {{- with .Values.imagePullSecrets }}
       imagePullSecrets:
         {{- toYaml . | nindent 8 }}
